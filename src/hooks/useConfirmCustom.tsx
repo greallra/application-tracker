@@ -30,7 +30,7 @@ interface rejectAndAcceptProps{
             { header = 'Confirmation' }: { header: string; },
             { icon = 'pi pi-exclamation-triangle' }: { icon: string; },
             { rejectProps = { label: 'Cancel', severity: 'secondary', outlined: true } }: { rejectProps: rejectAndAcceptProps; },
-            { acceptProps = { label: 'Delete', severity: 'secondary', outlined: true } }: { rejectProps: rejectAndAcceptProps; },
+            { acceptProps = { label: 'Delete', severity: 'secondary', outlined: true }} ,
             acceptAction: Function
         ) => {
       confirm.require({

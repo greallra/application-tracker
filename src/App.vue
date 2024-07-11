@@ -20,10 +20,10 @@
 <script setup lang="ts">
 import { onMounted } from "vue";
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 import ConfirmDialog from 'primevue/ConfirmDialog';
 import Toast from 'primevue/Toast';
-import Nav from './components/Nav.vue'
+import Nav from '@/components/Nav.vue'
 </script>
 
 
