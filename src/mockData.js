@@ -11,6 +11,7 @@ export default {
         { id: 13, name: 'Cord' },
         { id: 14, name: 'Wellfound' },
         { id: 15, name: 'Other' },
+        { id: 16, name: 'Remote Ok' },
     ],
     applications: [
         { id: Math.round(Math.random()), appliedVia: 'Linkedin', name: 'Boomer', status: 0 }, 
